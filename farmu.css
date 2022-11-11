@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+*{
+  margin:0;
+  padding:0;
+}
+.navbar{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    flex-wrap:wrap;
+}
+.navbar ul{
+    display:flex;
+}
+.navbar ul li{
+    list-style:none;
+    margin:10px 20px;
+    padding-left:4rem;
+}
+.navbar ul li a{
+    text-decoration:none;
+    font-size:18px;
+    position:relative;
+    color:rgba(202, 91, 23, 1);
+    
+}
+.navbar ul li a::after{
+    content:' ';
+    width:0;
+    height:3px;
+    background:rgba(147, 126, 2, 1);
+    position:absolute;
+    left:0;
+    bottom:-6px;
+    transition:0.5s;
+}
+nav ul li a:hover::after{
+    width:100%;
+}
+.logo{
+    margin-left:1.3rem;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size:2rem;
+}
+.sim{
+    color:rgba(202, 91, 23, 1);
+}
+.ff{
+    color:rgba(147, 126, 2, 1);
+}
+.op{
+    color:rgba(202, 91, 23, 1);
+}
+.header-div{
+    font-size:1.6rem;
+    text-align:left;
+    display:flex;
+    margin-left:1.3rem;
+    margin-top:13rem;
+    padding-left:1.3rem;
+}
+.jj{
+    color:rgba(202, 91, 23, 1);
+}
+.btn{
+    border:none;
+    border-radius:10rem;
+    padding:1rem;
+    width:10rem;
+    font-size:1.3rem;
+    font-weight:bolder;
+    margin-top:7rem;
+    margin-right:25rem;
+    color:rgba(202, 91, 23, 1);
+    background-color:rgba(216, 200, 80, 1);
+    box-shadow: 5px 5px 8px grey;
+}
