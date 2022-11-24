@@ -1,7 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&family=Pacifico&family=Satisfy&display=swap');
 *{
   margin:0;
   padding:0;
+}
+.hero{
+    background-image: url(farmu_homePage.png);
+    height:95vh;
+    width:100%;
+    background-size: cover;
+    background-position: top 25% right 0;
+    background-repeat: no-repeat;
 }
 .navbar{
     display:flex;
@@ -19,9 +29,9 @@
 }
 .navbar ul li a{
     text-decoration:none;
-    font-size:18px;
+    font-size:20px;
     position:relative;
-    color:rgba(202, 91, 23, 1);
+    color:rgba(40, 82, 62, 1);
     
 }
 .navbar ul li a::after{
@@ -39,8 +49,16 @@ nav ul li a:hover::after{
 }
 .logo{
     margin-left:1.3rem;
-font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Pacifico', cursive;
 font-size:2rem;
+}
+.jj{
+    font-family: 'Pacifico', cursive;
+font-family: 'Satisfy', cursive;
+font-size:5rem;
+}
+.pi{
+color:rgba(97, 84, 10, 1);
 }
 .sim{
     color:rgba(202, 91, 23, 1);
@@ -62,6 +80,10 @@ font-size:2rem;
 .jj{
     color:rgba(202, 91, 23, 1);
 }
+.fd{
+    margin-left:15rem;
+    margin-top:6rem;
+}
 .btn{
     border:none;
     border-radius:10rem;
@@ -69,9 +91,10 @@ font-size:2rem;
     width:10rem;
     font-size:1.3rem;
     font-weight:bolder;
-    margin-top:7rem;
-    margin-right:25rem;
+    
+    
     color:rgba(202, 91, 23, 1);
     background-color:rgba(216, 200, 80, 1);
     box-shadow: 5px 5px 8px grey;
+    
 }
